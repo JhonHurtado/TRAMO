@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".logIn.ActivityPersonOrCompany"
+    android:background="@drawable/twofondo">
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbarIrCliente"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        app:title="Seleccione una opción"
+        android:theme="@style/ToolbarTheme"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <include layout="@layout/activity_log_in_client" android:visibility="gone"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Inicia sesión \n o \n registrate \n como:"
+            android:textSize="50sp"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:layout_marginBottom="55dp"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/goPerson"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="Persona"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/black"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/goCompany"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="Empresa"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/black"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginTop="35dp"/>
+
+    </LinearLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

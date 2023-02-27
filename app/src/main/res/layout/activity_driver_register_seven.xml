@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".register.driverRegister.ActivityDriverRegisterSeven"
+    android:background="@drawable/twofondo">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbarGoDriverEight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/ToolbarTheme"
+        app:title="Registro Conductor"
+        app:titleTextColor="@color/black"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="60dp"
+        android:text="@string/datosvehiculo"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <LinearLayout
+            android:layout_marginTop="100dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="top"
+            android:orientation="vertical">
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_margin="15dp"
+                app:boxBackgroundColor="#00FF0000"
+                app:boxStrokeColor="#00FF0000"
+                app:endIconTint="#131313"
+                app:hintTextColor="#101010"
+                app:startIconTint="#323232">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/border_edit_text"
+                    android:hint="Ingrese la marca del vehiculo"
+                    android:textStyle="bold"/>
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_margin="15dp"
+                app:boxBackgroundColor="#00FF0000"
+                app:boxStrokeColor="#00FF0000"
+                app:endIconTint="#131313"
+                app:hintTextColor="#101010"
+                app:startIconTint="#323232">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/border_edit_text"
+                    android:hint="Ingrese el modelo del vehiculo"
+                    android:textStyle="bold"/>
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_margin="15dp"
+                app:boxBackgroundColor="#00FF0000"
+                app:boxStrokeColor="#00FF0000"
+                app:endIconTint="#131313"
+                app:hintTextColor="#101010"
+                app:startIconTint="#323232">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/border_edit_text"
+                    android:hint="Ingrese el numero de ejes del vehiculo"
+                    android:textStyle="bold"/>
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_margin="15dp"
+                app:boxBackgroundColor="#00FF0000"
+                app:boxStrokeColor="#00FF0000"
+                app:endIconTint="#131313"
+                app:hintTextColor="#101010"
+                app:startIconTint="#323232">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/border_edit_text"
+                    android:hint="Ingrese el tipo de vehiculo"
+                    android:textStyle="bold"/>
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_margin="15dp"
+                app:boxBackgroundColor="#00FF0000"
+                app:boxStrokeColor="#00FF0000"
+                app:endIconTint="#131313"
+                app:hintTextColor="#101010"
+                app:startIconTint="#323232">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/border_edit_text"
+                    android:hint="Ingrese la traccion del vehiculo"
+                    android:textStyle="bold"/>
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_margin="15dp"
+                app:boxBackgroundColor="#00FF0000"
+                app:boxStrokeColor="#00FF0000"
+                app:endIconTint="#131313"
+                app:hintTextColor="#101010"
+                app:startIconTint="#323232">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/border_edit_text"
+                    android:hint="Ingrese la placa del vehiculo"
+                    android:textStyle="bold"/>
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_margin="15dp"
+                app:boxBackgroundColor="#00FF0000"
+                app:boxStrokeColor="#00FF0000"
+                app:endIconTint="#131313"
+                app:hintTextColor="#101010"
+                app:startIconTint="#323232">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/border_edit_text"
+                    android:hint="Ingrese la placa del trailer"
+                    android:textStyle="bold"/>
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_margin="15dp"
+                app:boxBackgroundColor="#00FF0000"
+                app:boxStrokeColor="#00FF0000"
+                app:endIconTint="#131313"
+                app:hintTextColor="#101010"
+                app:startIconTint="#323232">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/border_edit_text"
+                    android:hint="Ingrese el peso vacio del vehiculo"
+                    android:textStyle="bold"/>
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_margin="15dp"
+                app:boxBackgroundColor="#00FF0000"
+                app:boxStrokeColor="#00FF0000"
+                app:endIconTint="#131313"
+                app:hintTextColor="#101010"
+                app:startIconTint="#323232">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/border_edit_text"
+                    android:hint="Ingrese el tipo de combustible del vehiculo"
+                    android:textStyle="bold"/>
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+
+
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/RegisterDriverEight"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="Siguiente"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:backgroundTint="@color/black"
+                android:layout_marginTop="50dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_gravity="bottom"
+                android:layout_marginBottom="20dp"/>
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

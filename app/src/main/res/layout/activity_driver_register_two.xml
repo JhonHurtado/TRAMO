@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".register.driverRegister.ActivityDriverRegisterTwo"
+    android:background="@drawable/twofondo">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbarGoDriverThree"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        app:title="Registro Conductor"
+        android:theme="@style/ToolbarTheme"/>
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="80dp"
+        android:gravity="top"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="Datos personales"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            tools:ignore="HardcodedText" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            app:boxBackgroundColor="#00FF0000"
+            app:boxStrokeColor="#00FF0000"
+            app:boxStrokeWidth="0dp"
+            app:endIconTint="#131313"
+            app:hintTextColor="#101010"
+            app:startIconTint="#323232">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/firstNameDriver"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border_edit_text"
+                android:hint="Primer Nombre" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            app:boxBackgroundColor="#00FF0000"
+            app:boxStrokeColor="#00FF0000"
+            app:boxStrokeWidth="0dp"
+            app:endIconTint="#131313"
+            app:hintTextColor="#101010"
+            app:startIconTint="#323232">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/secondNameDriver"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border_edit_text"
+                android:hint="Segundo Nombre" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            app:boxBackgroundColor="#00FF0000"
+            app:boxStrokeColor="#00FF0000"
+            app:boxStrokeWidth="0dp"
+            app:endIconTint="#131313"
+            app:hintTextColor="#101010"
+            app:startIconTint="#323232">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/firstLastNameDriver"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border_edit_text"
+                android:hint="Primer Apellido" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            app:boxBackgroundColor="#00FF0000"
+            app:boxStrokeColor="#00FF0000"
+            app:boxStrokeWidth="0dp"
+            app:endIconTint="#131313"
+            app:hintTextColor="#101010"
+            app:startIconTint="#323232">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/secondLastNameDriver"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border_edit_text"
+                android:hint="Segundo Apellido" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            app:boxBackgroundColor="#00FF0000"
+            app:boxStrokeColor="#00FF0000"
+            app:boxStrokeWidth="0dp"
+            app:endIconTint="#131313"
+            app:hintTextColor="#101010"
+            app:startIconTint="#323232">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/border_edit_text"
+                app:boxBackgroundColor="#00FF0000"
+                app:boxStrokeColor="#00FF0000"
+                app:boxStrokeWidth="0dp"
+                app:endIconTint="#131313"
+                app:hintTextColor="#101010"
+                app:startIconTint="#323232">
+
+                <Spinner
+                    android:id="@+id/spinnerDriver"
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp" />
+
+            </LinearLayout>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            app:boxBackgroundColor="#00FF0000"
+            app:boxStrokeColor="#00FF0000"
+            app:boxStrokeWidth="0dp"
+            app:endIconTint="#131313"
+            app:hintTextColor="#101010"
+            app:startIconTint="#323232">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/idNumberDriver"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border_edit_text"
+                android:hint="Numero Identificacion"
+                android:inputType="number" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            app:boxBackgroundColor="#00FF0000"
+            app:boxStrokeColor="#00FF0000"
+            app:boxStrokeWidth="0dp"
+            app:endIconTint="#131313"
+            app:hintTextColor="#101010"
+            app:startIconTint="#323232">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/nationalityDriver"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border_edit_text"
+                android:hint="Nacionalidad" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="10dp"
+            app:boxBackgroundColor="#00FF0000"
+            app:boxStrokeColor="#00FF0000"
+            app:boxStrokeWidth="0dp"
+            app:endIconTint="#131313"
+            app:hintTextColor="#101010"
+            app:startIconTint="#323232">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/addressDriver"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border_edit_text"
+                android:hint="Direccion residencia" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="10dp"
+            app:boxBackgroundColor="#00FF0000"
+            app:boxStrokeColor="#00FF0000"
+            app:boxStrokeWidth="0dp"
+            app:endIconTint="#131313"
+            app:hintTextColor="#101010"
+            app:startIconTint="#323232">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/cityDriver"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border_edit_text"
+                android:hint="Ciudad" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="10dp"
+            app:boxBackgroundColor="#00FF0000"
+            app:boxStrokeColor="#00FF0000"
+            app:boxStrokeWidth="0dp"
+            app:endIconTint="#131313"
+            app:hintTextColor="#101010"
+            app:startIconTint="#323232">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/etDateBirth"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border_edit_text"
+                android:hint="Ingrese Fecha de nacimiento"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:clickable="false"
+                android:focusable="false"
+                android:datePickerMode="spinner"
+                android:calendarTextColor="@android:color/black"
+
+                />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+
+
+    </LinearLayout>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/registerDriverThree"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:backgroundTint="@color/black"
+        android:text="@string/siguiente"
+        android:textColor="@color/white"
+        app:layout_anchor="@+id/linearLayout"
+        app:layout_anchorGravity="bottom|center"
+        android:layout_marginBottom="20dp"/>
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

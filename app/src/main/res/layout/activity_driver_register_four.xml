@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".register.driverRegister.ActivityDriverRegisterFour"
+    android:background="@drawable/twofondo">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbarGoDriverFive"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:theme="@style/ToolbarTheme"
+        app:title="registro Conductor"
+        app:titleTextColor="@color/black"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="80dp"
+        android:text="Datos en caso de emergencia"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        tools:ignore="HardcodedText" />
+
+
+    <LinearLayout
+        android:layout_marginTop="150dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="top"
+        android:orientation="vertical">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            app:boxBackgroundColor="#00FF0000"
+            app:boxStrokeColor="#00FF0000"
+            app:boxStrokeWidth="0dp"
+            app:endIconTint="#131313"
+            app:hintTextColor="#101010"
+            app:startIconTint="#323232">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border_edit_text"
+                android:hint="Nombres"
+                />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="10dp"
+            app:boxBackgroundColor="#00FF0000"
+            app:boxStrokeColor="#00FF0000"
+            app:boxStrokeWidth="0dp"
+            app:endIconTint="#131313"
+            app:hintTextColor="#101010"
+            app:startIconTint="#323232">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border_edit_text"
+                android:hint="Apellido"
+                />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="10dp"
+            app:boxBackgroundColor="#00FF0000"
+            app:boxStrokeColor="#00FF0000"
+            app:boxStrokeWidth="0dp"
+            app:endIconTint="#131313"
+            app:hintTextColor="#101010"
+            app:startIconTint="#323232">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border_edit_text"
+                android:hint="Telefono Movil"
+                />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="10dp"
+            app:boxBackgroundColor="#00FF0000"
+            app:boxStrokeColor="#00FF0000"
+            app:boxStrokeWidth="0dp"
+            app:endIconTint="#131313"
+            app:hintTextColor="#101010"
+            app:startIconTint="#323232">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border_edit_text"
+                android:hint="Direccion residencia" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="10dp"
+            app:boxBackgroundColor="#00FF0000"
+            app:boxStrokeColor="#00FF0000"
+            app:boxStrokeWidth="0dp"
+            app:endIconTint="#131313"
+            app:hintTextColor="#101010"
+            app:startIconTint="#323232">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border_edit_text"
+                android:hint="Ciudad" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="10dp"
+            app:boxBackgroundColor="#00FF0000"
+            app:boxStrokeColor="#00FF0000"
+            app:boxStrokeWidth="0dp"
+            app:endIconTint="#131313"
+            app:hintTextColor="#101010"
+            app:startIconTint="#323232">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border_edit_text"
+                android:hint="Correo Electronico"
+                android:inputType="textEmailAddress"
+                />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+    </LinearLayout>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/RegisterDriverFive"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Siguiente"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/black"
+        android:layout_marginTop="180dp"
+        android:layout_gravity="bottom"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="20dp"/>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ingreseContrasena">Ingrese su contraseña</string>
+    <string name="bienvenidaConductor">Bienvenido a Tramo Señor Conductor</string>
+    <string name="registroConductor">Apartir de este momento empezara su registro como Conductor</string>
+    <string name="fotoPerfil">Por favor añada una foto de perfil</string>
+    <string name="datosvehiculo">Datos del vehiculo</string>
+</resources>

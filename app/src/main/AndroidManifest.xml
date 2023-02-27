@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.TRAMO"
+        tools:targetApi="31">
+        <activity
+            android:name=".register.clientRegister.registerCompany.ActivityRegisterClientCompanyTwo"
+            android:exported="false"
+            android:parentActivityName=".register.clientRegister.ActivityRegisterClientOne"/>
+        <activity
+            android:name=".register.clientRegister.registerCompany.ActivityRegisterClientCompanyOne"
+            android:exported="false"
+            android:parentActivityName=".logIn.ActivityLogInClientCompany"/>
+
+        <activity
+            android:name=".register.clientRegister.ActivityRegisterClientTwo"
+            android:exported="false"
+            android:parentActivityName=".register.clientRegister.ActivityRegisterClientOne" />
+        <activity
+            android:name=".register.clientRegister.ActivityRegisterClientOne"
+            android:exported="false"
+            android:parentActivityName=".logIn.ActivityLogInClient" />
+        <activity
+            android:name=".logIn.ActivityLogInClientCompany"
+            android:exported="false"
+            android:parentActivityName=".logIn.ActivityPersonOrCompany" />
+        <activity
+            android:name=".register.driverRegister.ActivityDriverRegisterTen"
+            android:exported="false"
+            android:parentActivityName=".logIn.ActivityLogInDriver" />
+        <activity
+            android:name=".register.driverRegister.ActivityDriverRegisterNine"
+            android:exported="false"
+            android:parentActivityName=".register.driverRegister.ActivityDriverRegisterEight" />
+        <activity
+            android:name=".register.driverRegister.ActivityDriverRegisterEight"
+            android:exported="false"
+            android:parentActivityName=".register.driverRegister.ActivityDriverRegisterSeven" />
+        <activity
+            android:name=".register.driverRegister.ActivityDriverRegisterSeven"
+            android:exported="false"
+            android:parentActivityName=".register.driverRegister.ActivityDriverRegisterSix" />
+        <activity
+            android:name=".register.driverRegister.ActivityDriverRegisterSix"
+            android:exported="false"
+            android:parentActivityName=".register.driverRegister.ActivityDriverRegisterFive" />
+        <activity
+            android:name=".register.driverRegister.ActivityDriverRegisterFive"
+            android:exported="false"
+            android:parentActivityName=".register.driverRegister.ActivityDriverRegisterFour" />
+        <activity
+            android:name=".register.driverRegister.ActivityDriverRegisterFour"
+            android:exported="false"
+            android:parentActivityName=".register.driverRegister.ActivityDriverRegisterThree" />
+        <activity
+            android:name=".register.driverRegister.ActivityDriverRegisterThree"
+            android:exported="false"
+            android:parentActivityName=".register.driverRegister.ActivityDriverRegisterTwo" />
+        <activity
+            android:name=".register.driverRegister.ActivityDriverRegisterTwo"
+            android:exported="false"
+            android:parentActivityName=".register.driverRegister.ActivityDriverRegisterOne" />
+        <activity
+            android:name=".register.driverRegister.ActivityDriverRegisterOne"
+            android:exported="false"
+            android:parentActivityName=".logIn.ActivityLogInDriver" />
+        <activity
+            android:name=".logIn.ActivityLogInClient"
+            android:exported="false"
+            android:parentActivityName=".logIn.ActivityPersonOrCompany" />
+        <activity
+            android:name=".logIn.ActivityLogInDriver"
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".logIn.ActivityPersonOrCompany"
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

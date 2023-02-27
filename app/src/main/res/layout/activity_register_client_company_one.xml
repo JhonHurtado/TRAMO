@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".register.clientRegister.ActivityRegisterClientOne"
+    android:background="@drawable/twofondo">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbarGoLogInClientCompany"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        app:title=""
+        android:theme="@style/ToolbarTheme"/>
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="80dp"
+        android:gravity="top"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="45dp"
+            android:layout_marginEnd="45dp"
+            android:layout_marginBottom="45dp"
+            android:layout_gravity="center_horizontal"
+            android:text="Bienvenido a TRAMO"
+            android:textColor="#000000"
+            android:textSize="25sp"
+            tools:ignore="HardcodedText" />
+
+
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            app:boxBackgroundColor="#00FF0000"
+            app:boxStrokeColor="#00FF0000"
+            app:boxStrokeWidth="0dp"
+            app:endIconTint="#131313"
+            app:hintTextColor="#101010"
+            app:startIconTint="#323232">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border_edit_text"
+                android:hint="Nombre Empresa"
+                android:textStyle="bold"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            app:boxBackgroundColor="#00FF0000"
+            app:boxStrokeColor="#00FF0000"
+            app:boxStrokeWidth="0dp"
+            app:endIconTint="#131313"
+            app:hintTextColor="#101010"
+            app:startIconTint="#323232">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border_edit_text"
+                android:hint="Razon Social Empresa"
+                android:textStyle="bold"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            app:boxBackgroundColor="#00FF0000"
+            app:boxStrokeColor="#00FF0000"
+            app:boxStrokeWidth="0dp"
+            app:endIconTint="#131313"
+            app:hintTextColor="#101010"
+            app:startIconTint="#323232">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border_edit_text"
+                android:hint="Representante Legal"
+                android:textStyle="bold"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            app:boxBackgroundColor="#00FF0000"
+            app:boxStrokeColor="#00FF0000"
+            app:boxStrokeWidth="0dp"
+            app:endIconTint="#131313"
+            app:hintTextColor="#101010"
+            app:startIconTint="#323232">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border_edit_text"
+                android:hint="NIT Empresa"
+                android:textStyle="bold"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            app:boxBackgroundColor="#00FF0000"
+            app:boxStrokeColor="#00FF0000"
+            app:boxStrokeWidth="0dp"
+            app:endIconTint="#131313"
+            app:hintTextColor="#101010"
+            app:startIconTint="#323232">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border_edit_text"
+                android:hint="Dirección Empresa"
+                android:textStyle="bold"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+
+
+
+    </LinearLayout>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/registerPersonOne"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:backgroundTint="@color/black"
+        android:text="@string/siguiente"
+        android:textColor="@color/white"
+        app:layout_anchor="@+id/linearLayout"
+        app:layout_anchorGravity="bottom|center"
+        android:layout_marginBottom="20dp"/>
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
