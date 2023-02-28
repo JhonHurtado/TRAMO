@@ -3,6 +3,7 @@ package com.innovation.tramo.logIn
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.innovation.tramo.clientLauncher.ActivityClientLaunchOne
 import com.innovation.tramo.databinding.ActivityLogInClientBinding
 import com.innovation.tramo.register.clientRegister.ActivityRegisterClientOne
 import com.innovation.tramo.register.driverRegister.ActivityDriverRegisterOne
@@ -21,11 +22,20 @@ class ActivityLogInClient : AppCompatActivity() {
             goPerson()
 
         }
+        binding.btnLogInPerson.setOnClickListener{
+            goPersons()
+
+        }
     }
 
     private fun goPerson() {
 
         val intent = Intent(this, ActivityRegisterClientOne::class.java)
+        startActivity(intent)
+    }
+    private fun goPersons() {
+
+        val intent = Intent(this, ActivityClientLaunchOne::class.java)
         startActivity(intent)
     }
 }

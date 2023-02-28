@@ -1,7 +1,6 @@
 package com.innovation.tramo.register.driverRegister
 
 import android.content.Intent
-import android.graphics.Bitmap
 import android.graphics.Color
 import android.os.Bundle
 import android.util.Log
@@ -10,8 +9,8 @@ import android.view.ViewGroup
 import android.widget.ArrayAdapter
 import android.widget.Spinner
 import androidx.appcompat.app.AppCompatActivity
-import com.innovation.tramo.databinding.ActivityDriverRegisterTwoBinding
 import com.innovation.tramo.Fragments.DatePickerFragment
+import com.innovation.tramo.databinding.ActivityDriverRegisterTwoBinding
 import java.util.*
 
 class ActivityDriverRegisterTwo : AppCompatActivity() {

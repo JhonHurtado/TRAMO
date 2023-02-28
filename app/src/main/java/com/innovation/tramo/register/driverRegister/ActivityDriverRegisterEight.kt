@@ -3,8 +3,8 @@ package com.innovation.tramo.register.driverRegister
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.innovation.tramo.databinding.ActivityDriverRegisterEightBinding
 import com.innovation.tramo.Fragments.DatePickerFragment
+import com.innovation.tramo.databinding.ActivityDriverRegisterEightBinding
 import java.util.*
 
 class ActivityDriverRegisterEight : AppCompatActivity() {

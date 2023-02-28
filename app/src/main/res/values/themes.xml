@@ -29,10 +29,13 @@
     <style name="Theme.TRAMO.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
 
     <style name="Theme.TRAMO.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
     <style name="datePickerTheme" parent="android:Theme.Material.Light.Dialog">
         <item name="android:colorAccent">#000000</item>
-        <item name="colorControlNormal">#000000</item> // Color del botón normal
-        <item name="colorControlActivated">#5BBAE4</item> // Color del botón cuando está presionado
+        <item name="colorControlNormal">#000000</item>
+        // Color del botón normal
+        <item name="colorControlActivated">#5BBAE4</item>
+        // Color del botón cuando está presionado
 
     </style>
 
