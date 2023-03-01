@@ -43,7 +43,7 @@
             android:layout_marginBottom="20dp"/>
 
         <com.google.android.material.button.MaterialButton
-            android:id="@+id/RegisterDriverSevens"
+            android:id="@+id/IrAcercaApp"
             android:layout_width="match_parent"
             android:layout_height="60dp"
             android:text="Acerca de la aplicacion"
