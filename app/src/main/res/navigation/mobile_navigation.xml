@@ -22,4 +22,10 @@
         android:name="com.innovation.tramo.clientLauncher.ui.slideshow.SlideshowFragment"
         android:label="@string/menu_slideshow"
         tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/nav_pqrs"
+        android:name="com.innovation.tramo.clientLauncher.ui.pqrs.PqrsFragment"
+        android:label="Peticiones, Quejas y sugerencias"
+        tools:layout="@layout/fragment_pqrs" />
+
 </navigation>

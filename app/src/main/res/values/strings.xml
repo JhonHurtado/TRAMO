@@ -46,4 +46,5 @@
     <string name="menu_home">Editar Perfil</string>
     <string name="menu_gallery">Historial de viajes</string>
     <string name="menu_slideshow">Configuracion</string>
+    <string name="menu_pqrs">pqrs</string>
 </resources>

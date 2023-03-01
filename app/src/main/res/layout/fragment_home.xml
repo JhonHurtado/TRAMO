@@ -72,6 +72,7 @@
             app:endIconTint="#131313"
             app:hintTextColor="#101010"
             android:layout_weight="0.5"
+            app:endIconMode="clear_text"
             app:startIconTint="#323232">
 
             <com.google.android.material.textfield.TextInputEditText
@@ -108,6 +109,7 @@
             app:endIconTint="#131313"
             app:hintTextColor="#101010"
             android:layout_weight="0.5"
+            app:endIconMode="clear_text"
             app:startIconTint="#323232">
 
             <com.google.android.material.textfield.TextInputEditText
@@ -116,6 +118,7 @@
                 android:background="@drawable/border_edit_text"
                 android:hint="300123456"
                 android:inputType="number"
+
                 android:textStyle="bold"/>
         </com.google.android.material.textfield.TextInputLayout>
     </LinearLayout>
@@ -141,6 +144,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="15dp"
             app:boxBackgroundColor="#00FF0000"
+            app:endIconMode="clear_text"
             app:boxStrokeColor="#00FF0000"
             app:endIconTint="#131313"
             app:hintTextColor="#101010"
@@ -182,6 +186,7 @@
             app:boxStrokeColor="#00FF0000"
             app:endIconTint="#131313"
             app:hintTextColor="#101010"
+            app:endIconMode="clear_text"
             android:layout_weight="0.5"
             app:startIconTint="#323232">
 
