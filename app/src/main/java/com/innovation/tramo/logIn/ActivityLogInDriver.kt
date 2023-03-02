@@ -3,7 +3,9 @@ package com.innovation.tramo.logIn
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.innovation.tramo.clientLauncher.ActivityClientLaunchOne
 import com.innovation.tramo.databinding.ActivityLogInDriverBinding
+import com.innovation.tramo.register.clientRegister.ActivityRegisterClientOne
 import com.innovation.tramo.register.driverRegister.ActivityDriverRegisterOne
 
 class ActivityLogInDriver : AppCompatActivity() {
@@ -18,11 +20,14 @@ class ActivityLogInDriver : AppCompatActivity() {
         setSupportActionBar(binding.toolbarGoDriver)
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
 
+
+
         binding.registerDriver.setOnClickListener{
             goDriver()
 
         }
     }
+
 
     private fun goDriver() {
 

@@ -31,6 +31,7 @@
             android:layout_height="200dp"
             android:layout_marginTop="10dp"
             android:hint="Hola!! \nMuchas gracias por ponerte en contacto con nosotros. \n Por favor seleciona una opcion para brindarte la informacion necesaria."
+            android:textAllCaps="false"
             android:textColor="@color/black"
             android:textSize="20dp"></TextView>
 

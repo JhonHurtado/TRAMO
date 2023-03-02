@@ -53,10 +53,11 @@
             android:drawableLeft="@drawable/ic_about"
             android:layout_marginStart="10dp"
             android:layout_marginEnd="10dp"
-            android:layout_marginBottom="20dp"/>
+            android:layout_marginBottom="20dp"
+            android:layout_gravity="bottom"/>
 
         <com.google.android.material.button.MaterialButton
-            android:id="@+id/RegisterDriverSevenss"
+            android:id="@+id/TermsConditions"
             android:layout_width="match_parent"
             android:layout_height="60dp"
             android:text="Terminos y condiciones"
@@ -66,10 +67,12 @@
             android:layout_marginTop="10dp"
             android:layout_marginStart="10dp"
             android:layout_marginEnd="10dp"
+            tools:ignore="HardcodedText"
+            android:layout_gravity="bottom|center"
             android:layout_marginBottom="20dp"/>
 
         <com.google.android.material.button.MaterialButton
-            android:id="@+id/RegisterDriverSevensss"
+            android:id="@+id/IrLoginClient"
             android:layout_width="match_parent"
             android:layout_height="60dp"
             android:text="Cerrar sesion"

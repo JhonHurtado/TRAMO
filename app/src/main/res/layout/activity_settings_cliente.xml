@@ -43,7 +43,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Felipe Dulcey \nCarlos Noguera\nJhon Hurtado\nYonatan Suarez\nFelipe Segura\nHernan dario zuñiga"
+            android:text="Felipe Dulcey idrobo \nRoberto Carlos Noguera\nJhon Sebastian Hurtado\nYonatan David Pechene\nFelipe Segura Villamarin\nHernan dario zuñiga"
             android:textSize="17dp">
         </TextView>
 
