@@ -2,6 +2,7 @@ package com.innovation.tramo.clientLauncher
 
 import android.os.Bundle
 import android.view.Menu
+import android.view.View
 import com.google.android.material.snackbar.Snackbar
 import com.google.android.material.navigation.NavigationView
 import androidx.navigation.findNavController
@@ -14,6 +15,9 @@ import androidx.appcompat.app.AppCompatActivity
 import com.innovation.tramo.R
 //import com.innovation.tramo.clientLauncher.databinding.ActivityClientLaunchOneBinding
 import com.innovation.tramo.databinding.ActivityClientLaunchOneBinding
+import com.google.android.material.floatingactionbutton.FloatingActionButton
+
+
 
 class ActivityClientLaunchOne : AppCompatActivity() {
 
@@ -28,10 +32,27 @@ class ActivityClientLaunchOne : AppCompatActivity() {
 
         setSupportActionBar(binding.appBarActivityClientLaunchOne.toolbar)
 //-----------------------------------------------------------------------------------------------
+
+        val button1 = findViewById<FloatingActionButton>(R.id.btn1)
+        val button2 = findViewById<FloatingActionButton>(R.id.btn2)
+
+        button1.visibility = View.GONE
+        button2.visibility = View.GONE
+
         binding.appBarActivityClientLaunchOne.fab.setOnClickListener { view ->
-            Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                .setAction("Action", null).show()
+            if (button1.visibility == View.VISIBLE && button2.visibility == View.VISIBLE) {
+                button1.visibility = View.GONE
+                button2.visibility = View.GONE
+            } else {
+                button1.visibility = View.VISIBLE
+                button2.visibility = View.VISIBLE
+            }
         }
+
+
+
+
+
 
 
 //-------------------------------------------------------------------------------------------------
