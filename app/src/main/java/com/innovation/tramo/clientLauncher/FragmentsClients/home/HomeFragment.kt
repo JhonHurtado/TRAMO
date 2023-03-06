@@ -1,4 +1,4 @@
-package com.innovation.tramo.clientLauncher.ui.home
+package com.innovation.tramo.clientLauncher.FragmentsClients.home
 
 import android.os.Bundle
 import android.view.LayoutInflater

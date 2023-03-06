@@ -16,12 +16,15 @@
         android:theme="@style/Theme.TRAMO"
         tools:targetApi="31">
         <activity
+            android:name=".ActivityClientLaunchTwo"
+            android:exported="false" />
+        <activity
             android:name=".TermsConditions"
             android:exported="false" />
         <activity
-            android:name=".clientLauncher.Settings.ActivitySettingsCliente"
+            android:name=".clientLauncher.FragmentsClients.slideshow.AboutClient.ActivityAboutCliente"
             android:exported="false"
-            android:parentActivityName=".clientLauncher.Settings.ActivitySettingsCliente" />
+            android:parentActivityName=".clientLauncher.FragmentsClients.slideshow.AboutClient.ActivityAboutCliente" />
         <activity
             android:name=".clientLauncher.ActivityClientLaunchOne"
             android:exported="false"

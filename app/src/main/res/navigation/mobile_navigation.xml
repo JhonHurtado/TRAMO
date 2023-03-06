@@ -7,24 +7,24 @@
 
     <fragment
         android:id="@+id/nav_home"
-        android:name="com.innovation.tramo.clientLauncher.ui.home.HomeFragment"
+        android:name="com.innovation.tramo.clientLauncher.FragmentsClients.home.HomeFragment"
         android:label="@string/menu_home"
         tools:layout="@layout/fragment_home" />
 
     <fragment
         android:id="@+id/nav_gallery"
-        android:name="com.innovation.tramo.clientLauncher.ui.gallery.GalleryFragment"
+        android:name="com.innovation.tramo.clientLauncher.FragmentsClients.gallery.GalleryFragment"
         android:label="@string/menu_gallery"
         tools:layout="@layout/fragment_gallery" />
 
     <fragment
         android:id="@+id/nav_slideshow"
-        android:name="com.innovation.tramo.clientLauncher.ui.slideshow.SlideshowFragment"
+        android:name="com.innovation.tramo.clientLauncher.FragmentsClients.slideshow.SlideshowFragment"
         android:label="@string/menu_slideshow"
         tools:layout="@layout/fragment_slideshow" />
     <fragment
         android:id="@+id/nav_pqrs"
-        android:name="com.innovation.tramo.clientLauncher.ui.pqrs.PqrsFragment"
+        android:name="com.innovation.tramo.clientLauncher.FragmentsClients.pqrs.PqrsFragment"
         android:label="Peticiones, Quejas y sugerencias"
         tools:layout="@layout/fragment_pqrs" />
 

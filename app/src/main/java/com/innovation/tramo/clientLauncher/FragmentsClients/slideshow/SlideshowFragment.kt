@@ -1,4 +1,4 @@
-package com.innovation.tramo.clientLauncher.ui.slideshow
+package com.innovation.tramo.clientLauncher.FragmentsClients.slideshow
 
 //import com.innovation.tramo.clientLauncher.databinding.FragmentSlideshowBinding
 import android.content.Intent
@@ -6,17 +6,15 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.Button
 import android.widget.TextView
-import androidx.appcompat.app.AlertDialog
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
-import com.innovation.tramo.R
-import com.innovation.tramo.clientLauncher.Settings.ActivitySettingsCliente
+import com.innovation.tramo.Fragments.DatePickerFragment
+import com.innovation.tramo.clientLauncher.FragmentsClients.slideshow.AboutClient.ActivityAboutCliente
 import com.innovation.tramo.databinding.FragmentSlideshowBinding
 import com.innovation.tramo.logIn.ActivityLogInClient
-import com.innovation.tramo.clientLauncher.ui.slideshow.SlideshowFragment as SlideshowFragment
-import com.innovation.tramo.clientLauncher.ui.slideshow.SlideshowViewModel as SlideshowViewModel1
+import com.innovation.tramo.clientLauncher.FragmentsClients.slideshow.SlideshowViewModel as SlideshowViewModel1
+
 
 class SlideshowFragment : Fragment() {
 
@@ -50,7 +48,28 @@ class SlideshowFragment : Fragment() {
             goIrClientLogin()
         }
 
+       /* binding.termsAndConditions.setOnClickListener {
+            val inflater = LayoutInflater.from(this)
+            val view = inflater.inflate(R.layout.activity_terms_and_conditions, null)
+            val dialogBuilder = AlertDialog.Builder(this).setView(view)
+
+            val dialog = dialogBuilder.create()
+            dialog.show()
+
+            val btnClose = view.findViewById<Button>(R.id.btnClose)
+            btnClose.setOnClickListener {
+                dialog.dismiss()
+
+            }
+
+
+        } */
         return root
+    }
+
+    private fun goIrTermsConditions() {
+        val intent = Intent(activity, DatePickerFragment::class.java)
+        startActivity(intent)
     }
 
     private fun goIrClientLogin() {
@@ -59,7 +78,7 @@ class SlideshowFragment : Fragment() {
     }
 
     private fun goIrCliente() {
-        val intent = Intent(activity, ActivitySettingsCliente::class.java)
+        val intent = Intent(activity, ActivityAboutCliente::class.java)
         startActivity(intent)
     }
 

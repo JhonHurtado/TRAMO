@@ -47,4 +47,6 @@
     <string name="menu_gallery">Historial de viajes</string>
     <string name="menu_slideshow">Configuracion</string>
     <string name="menu_pqrs">pqrs</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

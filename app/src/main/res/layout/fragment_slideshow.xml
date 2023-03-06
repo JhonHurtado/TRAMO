@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".clientLauncher.ui.slideshow.SlideshowFragment">
+    tools:context=".clientLauncher.FragmentsClients.slideshow.SlideshowFragment">
 
     <TextView
         android:id="@+id/text_slideshow"
@@ -57,7 +57,7 @@
             android:layout_gravity="bottom"/>
 
         <com.google.android.material.button.MaterialButton
-            android:id="@+id/TermsConditions"
+            android:id="@+id/termsAndConditions"
             android:layout_width="match_parent"
             android:layout_height="60dp"
             android:text="Terminos y condiciones"

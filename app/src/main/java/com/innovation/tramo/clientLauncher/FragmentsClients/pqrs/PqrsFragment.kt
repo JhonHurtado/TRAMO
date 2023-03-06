@@ -1,4 +1,4 @@
-package com.innovation.tramo.clientLauncher.ui.pqrs
+package com.innovation.tramo.clientLauncher.FragmentsClients.pqrs
 
 import androidx.lifecycle.ViewModelProvider
 import android.os.Bundle
